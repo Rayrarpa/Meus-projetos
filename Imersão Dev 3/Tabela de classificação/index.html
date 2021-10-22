@@ -1,0 +1,39 @@
+<html>
+
+<head>
+  <meta charset="UTF-8"/>
+  <title>Tabela de classificação</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <h1>Counter-Strike: Global Offensive Major Championships</h1>
+  
+  <input type="text" placeholder="Digite o nome" id="nomeDoJogadorNovo">
+  <input type="text" placeholder="Digite o endereço da imagem" id="imagemDoJogadorNovo">
+  <button onclick="adicionarNovoJogador()">adicionar</button>
+
+  <div class="centro">
+    <table style="width:100%">
+      <thead>
+        <tr>
+          <th>Avatar</th>
+          <th>Nome</th>
+          <th>Vitórias</th>
+          <th>Empates</th>
+          <th>Derrotas</th>
+          <th>Pontos</th>
+          <th colspan="3">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+      </tbody>
+    </table><br/>
+    <button onclick="zerar()">Zerar dados</button>
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+* {
+  text-align: center;
+}
+
+input {
+/*   margin-top: 25px */
+  margin-bottom:25px;
+  border-radius: 30px;
+}
+
+img {
+  max-width: 50px;
+  min-height: 50px;
+/*   max-height: 100px; */
+}
+
+button {
+  border-radius: 30px;
+  box-shadow: 2px 2px 1px black;
+}
+
+button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://s2.glbimg.com/5uxuv5zOC78iM9cGrYTGLmbdhgo=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/R/c/UHbN0QR1GYvFPYtircDQ/sem-titulo-1.png");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  margin: auto;
+  max-width: 1050px
+}
+
+h1 {
+  color: white;
+}
+
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+.centro {
+  text-align: center;
+}

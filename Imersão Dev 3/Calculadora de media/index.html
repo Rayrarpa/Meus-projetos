@@ -1,0 +1,38 @@
+<html>
+  <head>
+	<meta charset="UTF-8"/>
+    <title>Calculadora de Média</title>
+	<link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container part1">
+      <h1 class="page-title">
+        Calculadora de média</h1>
+      <p class="nts">Digite o nome do aluno</p>
+      <input type="text" class="rendo" id="name">
+      <p class="nts">Digite a nota do primeiro Bimestre</p>
+      <input type="number" class="rendo" id="ndpb">
+      <p class="nts">Digite a nota do segundo Bimestre</p>
+      <input type="number" class="rendo" id="ndsb">
+      <p class="nts">Digite a nota do terceiro Bimestre</p>
+      <input type="number" class="rendo" id="ndtb">
+      <p class="nts">Digite a nota do quarto Bimestre</p>
+      <input type="number" class="rendo" id="ndqb"><br/>
+      <button class="rendo" onclick="btn()">Calcular a media</button>
+      <p class="nts" id ="res1"></p>
+      <p class="nts" id ="res2"></p>
+    </div>
+    <div class="container part2">
+      <p class="nts">Digite o nome do aluno que deseja ver a nota</p>
+      <input type="text" class="rendo" placeholder="Nome" id="mostrar">
+      <button class="rendo" onclick="ver()">Ver a nota</button>
+      <p id="aluno"></p>
+    </div>
+    <a href="https://discord.gg/pDbY76q8Qf
+" target="_blank">
+    <img src="https://cdn.discordapp.com/attachments/808326468924473354/887374301878165545/agua.jpg" alt="" class="alura-logo">
+    </a>
+	
+	<script src="script.js"></script>
+  </body>
+</html>
